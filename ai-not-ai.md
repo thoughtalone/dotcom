@@ -29,7 +29,7 @@ Computer science has a self-important habit of regarding automation of the first
 
 It is a remarkable achievement to eliminate the need for intelligence: the time the librarian spends sorting books can be best spent elsewhere. However it's a great research catastrophie to, therefore, interrigate a pixel pattern algorithm for the concetual structure of science fiction. And likewise to turn to neural networks to explain the brain.
 
-The "neural network algorithm" is a generalized form of linear regression, of the kind high school students perform with a pencil and graph paper <sup>[1]</sup>. 
+The "neural network algorithm" is a generalized form of linear regression, of the kind high school students perform with a pencil and graph paper <sup>[1](footnote-1)</sup>. 
 
 Neurones in the brain are plastic: they rearrange themselves. They have activations patterns which are not fixed over time. They engage in biochemical as well as electrical signalling. There is no homology between the structure of a neural network and any brain structure, the brain does not "tune activation patterns" in the manner of fitting a line to data. 
 
@@ -49,6 +49,7 @@ And importantly, though any specific action of the rider could be characterized 
 
 ### Footnotes
 
-* [1] The NN algorithm is a parameter estimation procedure for fixing constant terms in a piece-wise linear regression model. The model has the form $max(0, W_1n \dots max(0, W_0X))$ where the $X$ is the 'network input' and each action of a `max(0, ...)` is a layer whose output is determined by the matrix-vector product $WX$.
+<a name="footnote-1">[1]</a> The NN algorithm is a parameter estimation procedure for fixing constant terms in a piece-wise linear regression model. The model has the form $max(0, W_1n \dots max(0, W_0X))$ where the $X$ is the 'network input' and each action of a `max(0, ...)` is a layer whose output is determined by the matrix-vector product $WX$.
 
-This model has no plausible correspondance with anything in the brain. Though `max(0, wx)` is referred to as an "activation" a better term would be "score", and is a "score" only insofar as a dot product between two vectors describes the degree to which they overlap. In this sense *any* application of a dot product is a "activation", which most equations in physics. 
+This model has no plausible correspondance with anything in the brain. Though `max(0, wx)` is referred to as an "activation" a better term would be "score", and is a "score" only insofar as a dot product between two vectors describes the degree to which they "express a commonality". In this sense *any* application of a dot product is a "activation", which most equations in physics. 
+
